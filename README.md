@@ -3,8 +3,6 @@
 Aplicativo desktop em Python (Tkinter) para orçar impressões 3D: importa arquivos
 `.3mf` fatiados no Bambu Studio, calcula custos e gera um orçamento em PDF.
 
-> Versão modificada do projeto [williamsrocha/calculadora-orcamento-3d](https://github.com/williamsrocha/calculadora-orcamento-3d) (v20), com o mesmo propósito.
-
 ## O que mudou em relação à v20
 
 - Código separado em módulos: `core.py` (cálculo + leitura de .3mf), `pdf_orcamento.py` (PDF) e `calculadora3d_v21.py` (interface). O cálculo tem testes automatizados.
